@@ -83,6 +83,14 @@ CreateThread(function()
     end
 end)
 
+local green = "\27[32m"
+local blue = "\27[34m"
+local yellow = "\27[33m"
+local magenta = "\27[35m"
+local cyan = "\27[36m"
+local red = "\27[31m"
+local reset = "\27[0m"
+
 local currentVersion = "v1.1.0"
 
 local githubUser = "neroxservice"
